@@ -13,7 +13,7 @@
     function removeColor() {
         box.classList.remove('red');
     }
-if(theDay == startDate && theHours == startHour && theMinutes == startMinute) {
+if(theDay == startDate && theHours == startHour && theMinutes >= startMinute) {
     addColor();
 } else {
     removeColor();
